@@ -1,0 +1,11 @@
+{
+  "name": "ouatataz-dark-syntax",
+  "theme": "syntax",
+  "version": "0.1.3",
+  "description": "A subtle dark syntax theme for Atom - Seti UI theme friendly :)",
+  "repository": "https://github.com/atom/ouatataz-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
