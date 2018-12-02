@@ -60,9 +60,10 @@
     background-color: rgba(86, 45, 86, 0.75);
 }
 
+// String interpolation in Ruby, CoffeeScript, and others
 .syntax--string {
-    .syntax--meta.syntax--embedded.syntax--line,
-    .syntax--source {
+    .syntax--source,
+    .syntax--meta.syntax--embedded.syntax--line {
         color: #999D6A;
     }
 
@@ -122,8 +123,8 @@
     }
 }
 
-.syntax--source .syntax--entity.syntax--name.syntax--tag,
-.syntax--source .syntax--punctuation.syntax--tag {
+.syntax--source .syntax--punctuation.syntax--tag,
+.syntax--source .syntax--entity.syntax--name.syntax--tag {
     color: #E0C589;
 }
 
@@ -170,7 +171,6 @@
         color: #E0C589;
     }
 
-    &.syntax--class,
     &.syntax--tag .syntax--name,
     &.syntax--tag > .syntax--punctuation,
     &.syntax--tag.syntax--inline .syntax--name {
@@ -232,6 +232,7 @@
         background-color: #751012;
     }
 }
+
 // Markdown Styles
 .syntax--source.syntax--gfm {
     color: #999;
